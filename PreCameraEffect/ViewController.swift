@@ -7,19 +7,37 @@
 //
 
 import UIKit
+import Sharaku
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        guard let image = UIImage(named: "sample") else {
+            return
+        }
+        let vc = SHViewController(image: image)
+        vc.delegate = self
+        present(vc, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
+
+extension ViewController: SHViewControllerDelegate {
+    func shViewControllerImageDidFilter(image: UIImage) {
+        // stub
+    }
+    
+    func shViewControllerDidCancel() {
+        // stub
+    }
+}
+
+
 

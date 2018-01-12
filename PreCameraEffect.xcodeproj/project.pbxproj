@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210B7E8D7C0C7E1284DE0969 /* Pods_PreCameraEffectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868DAAFCB16EF201CA1F9388 /* Pods_PreCameraEffectTests.framework */; };
 		21A45E4D200850A9008FA226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A45E4C200850A9008FA226 /* AppDelegate.swift */; };
 		21A45E4F200850A9008FA226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A45E4E200850A9008FA226 /* ViewController.swift */; };
 		21A45E52200850A9008FA226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A45E50200850A9008FA226 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		21A45E57200850A9008FA226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A45E55200850A9008FA226 /* LaunchScreen.storyboard */; };
 		21A45E62200850A9008FA226 /* PreCameraEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A45E61200850A9008FA226 /* PreCameraEffectTests.swift */; };
 		21A45E6D200850A9008FA226 /* PreCameraEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A45E6C200850A9008FA226 /* PreCameraEffectUITests.swift */; };
+		5307BBC4E433898EFBCA35B5 /* Pods_PreCameraEffectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0B097C165C530C5AFD1889 /* Pods_PreCameraEffectUITests.framework */; };
+		97A6E8EC64BAD2496A131605 /* Pods_PreCameraEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FBF91D246D52A02E55AF57 /* Pods_PreCameraEffect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09ED5212EA8F89D7DCACDD57 /* Pods-PreCameraEffectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffectTests/Pods-PreCameraEffectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		21A45E49200850A9008FA226 /* PreCameraEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreCameraEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A45E4C200850A9008FA226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21A45E4E200850A9008FA226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		21A45E68200850A9008FA226 /* PreCameraEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreCameraEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A45E6C200850A9008FA226 /* PreCameraEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreCameraEffectUITests.swift; sourceTree = "<group>"; };
 		21A45E6E200850A9008FA226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49469ACA38CD47CF4857FAC3 /* Pods-PreCameraEffectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffectUITests/Pods-PreCameraEffectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		645B84A41A27F5ED38B583C2 /* Pods-PreCameraEffectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffectTests/Pods-PreCameraEffectTests.release.xcconfig"; sourceTree = "<group>"; };
+		66A64064712D7FAA208BA43A /* Pods-PreCameraEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffect.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffect/Pods-PreCameraEffect.release.xcconfig"; sourceTree = "<group>"; };
+		6918E084EEFD455A5DAE3ABB /* Pods-PreCameraEffectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffectUITests/Pods-PreCameraEffectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		868DAAFCB16EF201CA1F9388 /* Pods_PreCameraEffectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreCameraEffectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F67D52866CC899B30A707A /* Pods-PreCameraEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCameraEffect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreCameraEffect/Pods-PreCameraEffect.debug.xcconfig"; sourceTree = "<group>"; };
+		C9FBF91D246D52A02E55AF57 /* Pods_PreCameraEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreCameraEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0B097C165C530C5AFD1889 /* Pods_PreCameraEffectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreCameraEffectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A6E8EC64BAD2496A131605 /* Pods_PreCameraEffect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210B7E8D7C0C7E1284DE0969 /* Pods_PreCameraEffectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307BBC4E433898EFBCA35B5 /* Pods_PreCameraEffectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20655733F9A7C37D70FFD5C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F67D52866CC899B30A707A /* Pods-PreCameraEffect.debug.xcconfig */,
+				66A64064712D7FAA208BA43A /* Pods-PreCameraEffect.release.xcconfig */,
+				09ED5212EA8F89D7DCACDD57 /* Pods-PreCameraEffectTests.debug.xcconfig */,
+				645B84A41A27F5ED38B583C2 /* Pods-PreCameraEffectTests.release.xcconfig */,
+				6918E084EEFD455A5DAE3ABB /* Pods-PreCameraEffectUITests.debug.xcconfig */,
+				49469ACA38CD47CF4857FAC3 /* Pods-PreCameraEffectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		21A45E40200850A9008FA226 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				21A45E60200850A9008FA226 /* PreCameraEffectTests */,
 				21A45E6B200850A9008FA226 /* PreCameraEffectUITests */,
 				21A45E4A200850A9008FA226 /* Products */,
+				20655733F9A7C37D70FFD5C5 /* Pods */,
+				6E9CEE9AFC28B3B7E2E1B957 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = PreCameraEffectUITests;
 			sourceTree = "<group>";
 		};
+		6E9CEE9AFC28B3B7E2E1B957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FBF91D246D52A02E55AF57 /* Pods_PreCameraEffect.framework */,
+				868DAAFCB16EF201CA1F9388 /* Pods_PreCameraEffectTests.framework */,
+				CC0B097C165C530C5AFD1889 /* Pods_PreCameraEffectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A45E71200850A9008FA226 /* Build configuration list for PBXNativeTarget "PreCameraEffect" */;
 			buildPhases = (
+				99E1EA09FC1D3812F87D266C /* [CP] Check Pods Manifest.lock */,
 				21A45E45200850A9008FA226 /* Sources */,
 				21A45E46200850A9008FA226 /* Frameworks */,
 				21A45E47200850A9008FA226 /* Resources */,
+				9EF3FC8CB6675C78BC1D8201 /* [CP] Embed Pods Frameworks */,
+				CDB076DCC966F895A77FCC70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A45E74200850A9008FA226 /* Build configuration list for PBXNativeTarget "PreCameraEffectTests" */;
 			buildPhases = (
+				8BE2B5C09FBF3B07B29CAD2F /* [CP] Check Pods Manifest.lock */,
 				21A45E59200850A9008FA226 /* Sources */,
 				21A45E5A200850A9008FA226 /* Frameworks */,
 				21A45E5B200850A9008FA226 /* Resources */,
+				CCC3221BDC9B353DA289E41C /* [CP] Embed Pods Frameworks */,
+				FE0DE22E6014A8219F708C3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A45E77200850A9008FA226 /* Build configuration list for PBXNativeTarget "PreCameraEffectUITests" */;
 			buildPhases = (
+				BDAB2DAD7063B45E48174A97 /* [CP] Check Pods Manifest.lock */,
 				21A45E64200850A9008FA226 /* Sources */,
 				21A45E65200850A9008FA226 /* Frameworks */,
 				21A45E66200850A9008FA226 /* Resources */,
+				2B1CCAB79773F2B40F43452E /* [CP] Embed Pods Frameworks */,
+				DEBCFD30ACE2A21F09A46FC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1CCAB79773F2B40F43452E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffectUITests/Pods-PreCameraEffectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE2B5C09FBF3B07B29CAD2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreCameraEffectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E1EA09FC1D3812F87D266C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreCameraEffect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF3FC8CB6675C78BC1D8201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffect/Pods-PreCameraEffect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Sharaku/Sharaku.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sharaku.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffect/Pods-PreCameraEffect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAB2DAD7063B45E48174A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreCameraEffectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC3221BDC9B353DA289E41C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffectTests/Pods-PreCameraEffectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB076DCC966F895A77FCC70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffect/Pods-PreCameraEffect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBCFD30ACE2A21F09A46FC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffectUITests/Pods-PreCameraEffectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0DE22E6014A8219F708C3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreCameraEffectTests/Pods-PreCameraEffectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21A45E45200850A9008FA226 /* Sources */ = {
@@ -424,11 +623,13 @@
 		};
 		21A45E72200850A9008FA226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F67D52866CC899B30A707A /* Pods-PreCameraEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreCameraEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.PreCameraEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +640,13 @@
 		};
 		21A45E73200850A9008FA226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A64064712D7FAA208BA43A /* Pods-PreCameraEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreCameraEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.PreCameraEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +657,7 @@
 		};
 		21A45E75200850A9008FA226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09ED5212EA8F89D7DCACDD57 /* Pods-PreCameraEffectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +675,7 @@
 		};
 		21A45E76200850A9008FA226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645B84A41A27F5ED38B583C2 /* Pods-PreCameraEffectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		21A45E78200850A9008FA226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6918E084EEFD455A5DAE3ABB /* Pods-PreCameraEffectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +710,7 @@
 		};
 		21A45E79200850A9008FA226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49469ACA38CD47CF4857FAC3 /* Pods-PreCameraEffectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
